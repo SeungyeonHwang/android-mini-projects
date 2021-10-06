@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bts">
         <activity
+            android:name=".Bts7MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Bts6MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Bts5MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Bts4MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Bts3MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Bts2MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Bts1MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
