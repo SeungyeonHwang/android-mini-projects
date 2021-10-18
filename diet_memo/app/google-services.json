@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "798464732860",
+    "project_id": "diet-memo-app-87d9e",
+    "storage_bucket": "diet-memo-app-87d9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798464732860:android:635c371cead7b130852ab9",
+        "android_client_info": {
+          "package_name": "com.hwang.diet_memo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798464732860-p355h7c6620gcmjn81jrmukiie42742c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7SEWNPJ8f24vmWXoARc7hGQXxaIHCCog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798464732860-p355h7c6620gcmjn81jrmukiie42742c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

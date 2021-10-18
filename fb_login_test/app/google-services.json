@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "59661759671",
+    "project_id": "fb-login-test-ccf54",
+    "storage_bucket": "fb-login-test-ccf54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59661759671:android:319e040289655ae4fa4932",
+        "android_client_info": {
+          "package_name": "com.hwang.fb_login_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59661759671-l8tk2fe51svjd1li239eefcpfdja3mfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt0ZtksxlmkaxH0oW5hjzm67r3eybxl4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59661759671-l8tk2fe51svjd1li239eefcpfdja3mfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
