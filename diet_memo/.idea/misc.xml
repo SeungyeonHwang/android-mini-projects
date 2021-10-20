@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/SeungyeonHwang/Desktop/android-mini-projects/diet_memo/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/SeungyeonHwang/Desktop/android-mini-projects/diet_memo/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/SeungyeonHwang/Desktop/android-mini-projects/diet_memo/app/src/main/res/layout/activity_splash.xml" value="0.3515625" />
+        <entry key="..\:/Users/SeungyeonHwang/Desktop/android-mini-projects/diet_memo/app/src/main/res/layout/custome_dialog.xml" value="0.67" />
+        <entry key="..\:/Users/SeungyeonHwang/Desktop/android-mini-projects/diet_memo/app/src/main/res/layout/listview_item.xml" value="0.5" />
       </map>
     </option>
   </component>
