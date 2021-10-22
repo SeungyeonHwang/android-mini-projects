@@ -17,7 +17,20 @@ class RVAdapter(val context: Context, val List: MutableList<ContentrsModel>) :
         return ViewHolder(v)
     }
 
+    interface ItemClick {
+        fun onClick(view: View, position: Int)
+    }
+
+    var itemClick: ItemClick? = null
+
     override fun onBindViewHolder(holder: RVAdapter.ViewHolder, position: Int) {
+
+        if (itemClick != null) {
+            holder.itemView.setOnClickListener { v ->
+                itemClick!!.onClick(v, position)
+            }
+        }
+
         holder.bindItems(List[position])
     }
 
@@ -32,7 +45,7 @@ class RVAdapter(val context: Context, val List: MutableList<ContentrsModel>) :
 
             rv_text.text = item.titleText
             Glide.with(context)
-                .load("https://picsum.photos/200/300?random=1")
+                .load(item.imageUrl)
                 .into(rv_img)
         }
     }
