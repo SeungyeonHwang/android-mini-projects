@@ -25,6 +25,7 @@ class ViewActivity : AppCompatActivity() {
         val webView = findViewById<WebView>(R.id.webView)
         webView.loadUrl(intent.getStringExtra("url").toString())
 
+        //DB 사용
         val database = Firebase.database
         val myBookMarkRef = database.getReference("bookmark_ref")
 
